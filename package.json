@@ -1,0 +1,32 @@
+{
+  "name": "rasp-mq",
+  "version": "0.0.0",
+  "description": "Message queue for raspberry pi",
+  "main": "mq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maniankara/rasp-mq.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "pi",
+    "queue",
+    "messag"
+  ],
+  "author": "maniankara@gmail.com",
+  "license": "Eday Solutions",
+  "bugs": {
+    "url": "https://github.com/maniankara/rasp-mq/issues"
+  },
+  "homepage": "https://github.com/maniankara/rasp-mq",
+  "dependencies": {
+    "zmq": "~2.7.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+
+}

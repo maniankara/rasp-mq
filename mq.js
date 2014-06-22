@@ -1,5 +1,7 @@
 var zmq 	 = require('zmq')
-  , workerServer = process.argv[2] 
+  , workerServer = (process.argv[2] == null)
+  	? '127.0.0.1'
+  	: process.argv[2]
   , is_producer = (workerServer == 'producer')
   , producerPort = (process.argv[3] == null)
   	? '8124'
